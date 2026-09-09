@@ -9,7 +9,7 @@ components, including the land surface, ocean, and sea ice. The land
 surface supplies fluxes of momentum, heat, moisture, and carbon to the
 atmosphere, and responds to atmospheric forcing in return.
 
-The land surface is represented by JULES, the Joint UK Land Environment
+The land surface is represented by `JULES <https://github.com/MetOffice/jules>`_, the Joint UK Land Environment
 Simulator. JULES can run as a standalone model using observed forcing data
 or be coupled to an atmospheric global circulation model for weather
 prediction and climate modelling.
