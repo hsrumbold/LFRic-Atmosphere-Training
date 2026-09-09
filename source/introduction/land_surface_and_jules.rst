@@ -27,19 +27,19 @@ JULES uses these inputs to simulate processes such as:
 * Runoff, infiltration, soil-water movement, and river routing,
 * Soil temperature, soil moisture, freezing, and thawing,
 * Transpiration, photosynthesis, vegetation dynamics, crop processes, and soil
-carbon.
+  carbon.
 
 The land surface is represented using multiple surface types, including
 vegetated and non-vegetated tiles, and multiple soil layers. By default, the
 surface has nine surface tiles in each grid box, five of which are vegetated
 (broadleaf trees, needleleaf trees, C3 (temperate) grass, C4 (tropical) grass
 and shrubs), and four are non-vegetation types (urban, inland water, bare soil
- and land ice). Each JULES surface tile calculates its own fluxes of heat,
- moisture and momentum, derived from bulk aerodynamic formulae through
- functions of specific humidity, air temperature, wind speed and available
- energy. These are averaged and weighted by the fractional cover of each
- surface tile over the grid box to produce grid box mean components of the
- surface energy balance.
+and land ice). Each JULES surface tile calculates its own fluxes of heat,
+moisture and momentum, derived from bulk aerodynamic formulae through
+functions of specific humidity, air temperature, wind speed and available
+energy. These are averaged and weighted by the fractional cover of each
+surface tile over the grid box to produce grid box mean components of the
+surface energy balance.
 
 .. _fig-intro-jules-surface-processes:
 
@@ -56,8 +56,8 @@ JULES calculates the exchanges of energy and momentum between the surface and
 the atmosphere by representing a range of surface and sub-surface processes,
 including snow, surface and soil hydrology, and vegetation physiology and
 dynamics. JULES currently uses a tiled model to represent surface heterogeneity
- with separate energy and water fluxes computed for each surface type within
- an atmospheric grid box.
+with separate energy and water fluxes computed for each surface type within
+an atmospheric grid box.
 
 
 
@@ -79,11 +79,12 @@ The JULES model description papers provide the scientific background:
         <https://doi.org/10.5194/gmd-4-701-2011>`_.
 
 See also:
-* H.S. Rumbold et al. (2023) `Assessing methods for representing soil
-       heterogeneity through a flexible approach within the Joint UK Land
-       Environment Simulator (JULES) at version 3.4.1
-       <https://gmd.copernicus.org/articles/16/1875/2023/>` _ section 2.1 for
-       further scheme description.
+
+* H. S. Rumbold et al. (2023) `Assessing methods for representing soil
+  heterogeneity through a flexible approach within the Joint UK Land
+  Environment Simulator (JULES) at version 3.4.1
+  <https://gmd.copernicus.org/articles/16/1875/2023/>` _ section 2.1 for
+  further scheme description.
 
 
 The `JULES user documentation <https://metoffice.github.io/jules/latest/>`_ and
